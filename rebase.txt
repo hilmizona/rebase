@@ -29,6 +29,6 @@ Step 3 :
 > Git pull (cek update repo asli)
 
 Step 4 :
-> Git 
+> git 
 
 
