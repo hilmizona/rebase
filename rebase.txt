@@ -1,0 +1,34 @@
+
+REBASE
+
+Rebase adalah GitWorkFlow untuk mengganti Merge.
+dalam kasus ini disaranken menggunakan Rebase ketika dalam project/repo yg besar,
+guna untuk memudahken Tracking dari banyaknya Branch yg Commit pada project itu.
+Untuk itu idealnya dengan Rebase agar FastForwardMerge supaya tidak menambah Commit baru.
+
+Note :
+keadaan akhir Rebase branch akan berada diakhir Commit Master aslinya, 
+artinya meskipun mengedit satu file bersamaan dengan Masternya atau dengan Branch lain tidak akan terjadi Merge Commit.
+
+dalam kasus ini Repo Asli tidak di Remote dan diFork,
+tapi dengan Collaborators, sehingga tim project bisa langsung push ke Repo Asli tanpa CreatPullRequest.
+
+Step 1 : 
+> di repo asli/pemilik ➡ klik repo yg akan collab ➡ setting ➡ collaborators ➡ invite akun
+> clone repo asli ke local 
+
+biasakan untuk menambah Branch baru supaya Master tetap sama dengan Repo asli.
+setelah edit di branch baru local.
+Step 2 : 
+> Git add . ➡ Git commit -m "message"
+
+sebelum merge ke master biasakan Pull dulu masternya, 
+agar tahu jika ada update di Master Asli.
+Step 3 : 
+> Git checkout master (pindah dulu ke master di local)
+> Git pull (cek update repo asli)
+
+setelah di edit di branch baru local
+Step 4 :
+
+
