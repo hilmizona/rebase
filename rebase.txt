@@ -28,7 +28,7 @@ Step 3 :
 > Git checkout master (pindah dulu ke master di local)
 > Git pull (cek update repo asli)
 
-setelah di edit di branch baru local
 Step 4 :
+> Git 
 
 
