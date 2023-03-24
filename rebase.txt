@@ -22,19 +22,21 @@ setelah edit di branch baru local.
 Step 2 : 
 > Git add . ➡ Git commit -m "message"
 
+PETING !!!
 sebelum merge ke master biasakan Pull dulu masternya, 
 agar tahu jika ada update di Master Asli.
 Step 3 : 
 > Git checkout master (pindah dulu ke master di local)
 > Git pull (cek update repo asli)
 
+PETING !!!
 Sejajar kan pointer head newbranch dengan master local
 Step 4 :
 > Git checkout newbranch (switch lagi utuk rebase )
 > Git rebase master (rebase newbranch ke master/pengganti merge)
 > Git checkout master (switch lagi utuk rebase )
 > Git rebase newbranch (rebase master ke master/pengganti merge)
-
+PETING !!!
 Step 5 :
 setelah pointer head newbranch dan master local sejajar, balik lagi ke master untuk push.
 > Git checkout master
