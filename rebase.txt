@@ -35,4 +35,8 @@ Step 4 :
 > Git checkout master (switch lagi utuk rebase )
 > Git rebase newbranch (rebase master ke master/pengganti merge)
 
+Step 5 :
+setelah pointer head newbranch dan master local sejajar, balik lagi ke master untuk push.
+> Git checkout master
+> Git push -u origin master
 
