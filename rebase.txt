@@ -40,3 +40,5 @@ setelah pointer head newbranch dan master local sejajar, balik lagi ke master un
 > Git checkout master
 > Git push -u origin master
 
+DONE !!
+
