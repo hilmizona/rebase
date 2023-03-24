@@ -28,7 +28,11 @@ Step 3 :
 > Git checkout master (pindah dulu ke master di local)
 > Git pull (cek update repo asli)
 
+Sejajar kan pointer head newbranch dengan master local
 Step 4 :
-> git 
+> Git checkout newbranch (switch lagi utuk rebase )
+> Git rebase master (rebase newbranch ke master/pengganti merge)
+> Git checkout master (switch lagi utuk rebase )
+> Git rebase newbranch (rebase master ke master/pengganti merge)
 
 
